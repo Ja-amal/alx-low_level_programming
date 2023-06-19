@@ -1,5 +1,6 @@
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
  * main - putchar
@@ -8,12 +9,10 @@
  */
 int main(void)
 {
-int x  = 'a';
-while (x <= 'a')
-{
+char x;
+for (x = 'a'; x<= 'z'; x++)
 putchar(x);
-x++;
-}
+for (x = 'A'; x<= 'Z'; x++)
+putchar(x);
 putchar('\n');
 return (0);
-}
