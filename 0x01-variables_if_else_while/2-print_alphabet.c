@@ -8,12 +8,9 @@
  */
 int main(void)
 {
-char x  = 'a';
-while (x <= 'a')
-{
+char x;
+for (x = 'a'; x <= 'z'; x++)
 putchar(x);
-x++;
-}
 putchar('\n');
 return (0);
 }
